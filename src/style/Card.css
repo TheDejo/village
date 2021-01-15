@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+.card {
+  display: grid;
+  /* width: 400px; */
+  grid-template-columns: 430px;
+  grid-template-rows: 100px 320px 80px;
+  grid-template-areas: "question" "text" "input";
+  margin: 4%;
+  font-family: 'popins' sans-serif;
+  border-style: solid;
+  border-width: thin;
+  border-color: #636e72;
+  border-radius: 18px;
+  background:#fff;
+  /* border-width: thick;
+  border-color: solid red; */
+  
+
+  
+}
+
+.card:hover {
+  border-color: #fed330;
+}
+ 
+.card-question {
+  grid-area: question;
+}
+
+.card-text {
+  grid-area: text;
+}
+
+.card-input {
+  grid-area: input;
+}
